@@ -6,7 +6,10 @@
     left: 0px;
     bottom: 0px;
     border-top: 1px solid #f7f7f7;
-    box-sizing: border-box;
+}
+
+.nav i {
+    font-size: 20px;
 }
 
 .nav .nav__list {
@@ -14,6 +17,21 @@
     justify-content: space-between;
 }
 
-.nav i {
-    font-size: 20px;
+.nav .nav__list-link {
+    position: relative;
+}
+
+.nav .nav__badge {
+    position: absolute;
+    top: -7px;
+    right: -7px;
+    color: white;
+    font-size: 10px;
+    background-color: #dc5d46;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
 }
